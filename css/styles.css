@@ -58,10 +58,10 @@ body {
 }
 
 /* Hero */
-.hero-section {
+.hero {
   background-color: #2f303a;
 }
-.hero-title {
+.hero .title {
   color: #fff;
   font-family: Roboto;
   font-weight: 900;
@@ -73,7 +73,7 @@ body {
   text-transform: uppercase;
 }
 
-.hero-button {
+.hero .button {
   color: white;
   background-color: var(--accent-color);
   font-weight: bold;
@@ -85,8 +85,8 @@ body {
   letter-spacing: 0.06em;
   text-decoration: none;
 }
-.hero-button:hover,
-.hero-button:focus {
+.hero .button:hover,
+.hero .button:focus {
   color: var(--accent-color);
   background-color: white;
 }
@@ -127,11 +127,11 @@ body {
 
 /* Team */
 
-.team-section {
+.team {
   background-color: #f5f4fa;
 }
 
-.team-title {
+.team .title {
   color: var(--primary-text-color);
   font-weight: bold;
   font-size: 36px;
